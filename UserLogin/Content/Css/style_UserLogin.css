@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    background-image: url("../../Images/waterdrops.jpg");
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color:orangered;
+}
+
+col-md-8{
+    width:50%;
+    height:50%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 26px;
+    font-family: 'Anton', sans-serif;
+}
+
+.main-form {
+    border: 0px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.logoRow {
+    padding: 1em 0;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.loginRow {
+    margin: auto;
+    padding: 30px;
+}
+
+.loginForm {
+    padding:0 20px 20px 20px;
+    margin-bottom: 10px;
+    background-color: #3d4c98;
+    color: black;
+    border-radius: 5px;
+}
+
+.childFormHeader {
+    padding:0;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.orderTrackForm {
+    padding: 0 20px 20px 20px;
+    background-color: #4aa5e1;
+    border-radius: 5px;
+}
+
+.footerRow {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.58);
+    ;
+    border-radius: 0 0 10px 10px;
+}
+
+@media only screen and (max-width:700px) {
+    .main-form {
+        width: 300px;
+        width: 80%;
+    }
+
+    img {
+        position: relative;
+        right: 10px;
+    }
+}

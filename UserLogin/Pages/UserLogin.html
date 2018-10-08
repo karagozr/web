@@ -1,0 +1,76 @@
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="../Content/Css/style_UserLogin.css" rel="stylesheet" />
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<script src="../Script/script_UserLogin.js"></script>
+<body>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-8 col-md-offset-2">
+                <h1>KARGICAM SİPARİŞ TAKİP SİSTEMİ</h1>
+
+                <div class="main-form form">
+                    <div class="logoRow row">
+                        <img src="../Images/CompanyLogo.png" alt="user" class="center-block" width="400" height="82" />
+                    </div>
+                    <div class="loginRow row">
+                        <div class="loginForm col-md-6">
+                            <div class="childFormHeader row">
+                                <h3>MÜŞTERİ GİRİŞİ</h3>
+                                <p class="userLoginErr"> </p>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="userNumber">Vergi No/TC. :</label>
+                                <input id="userNo" type="text" class="form-control">
+                                <p class="userNoErr"> </p>
+                            </div>
+                            <div class="form-group">
+                                <label for="userPass">Şifre :</label>
+                                <input id="userPass" type="password" class="form-control">
+                                <p class="userPassErr"> </p>
+                            </div>
+                            <div>
+                                <label><input type="checkbox">Beni Hatırla</label>
+                            </div>
+                            <button id="btnLogin" style="position:relative;top:5px;"
+                                    class="btn btn-success" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Giriş Yapılıyor...">
+                                GİRİŞ
+                            </button>
+
+                        </div>
+                        <div class="orderTrackForm col-md-5 col-md-offset-1">
+                            <div class="childFormHeader row">
+                                <h3>SİPARİŞ SORGU</h3>
+                                <p class="orderErr"> </p>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="trackNumber">Sipariş No. :</label>
+                                <input id="orderNo" type="text" class="form-control">
+                                <p class="orderNoErr"> </p>
+                            </div>
+                            <button id="btnTrackOrder" position:"relative;top:5px;"
+                                    class="btn btn-danger" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Sorgulanıyor...">
+                                SORGULA
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="footerRow row">
+                        <h4>Powered by GlazierSoft</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
